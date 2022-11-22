@@ -8,6 +8,9 @@ export default function Menu() {
       <li>
         <Link to={"/page2"}>Page 2 </Link>
       </li>
+      <li>
+        <Link to={"/categoria?categoria=2"}>Categoria </Link>
+      </li>
     </ul>
   );
 }
